@@ -43,9 +43,9 @@ Substituir "+" por "-" e "/" por "_" no token forjado para cumprir com a codific
 #### Enviar uma Solicitação para o Endpoint de Autorização:
 Usando o token forjado como parte da solicitação para o endpoint "/no-way-jose/autorizar/<token>/".
 
-### Criando o token forjado
+### Criando o token 
 
-O token forjado criado para o desafio é *"eyJhbGciOiAibm9uZSJ9.eyJhZG1pbiI6IHRydWV9."*
+O token criado é *"eyJhbGciOiAibm9uZSJ9.eyJhZG1pbiI6IHRydWV9."*
 Este token tem o campo alg definido como none e a carga útil indicando "admin": verdadeiro. 
 
 Ao enviar este token no campo de submissão foi recebida a resposta desejada:
